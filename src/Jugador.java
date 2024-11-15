@@ -25,6 +25,9 @@ public class Jugador { //Clase padre
         //Aca solo le cambie el nombre (no confundirse) a los argumentos para que no salgan todos con el mismo nombre y edad
         public Portero(String equipo, String nombrePortero, int edadPortero, int atajadas, int golesRecibidos) { //Su constructor que usa los atributos heredados del padre
             super(equipo, nombrePortero, edadPortero); //Estos son los heredados
+            //Cuando queramos heredar metodos especificos(NO TODOS) podemos usar la siguiente linea
+            //super.NombreMetodoEspecifico();
+            //En este caso no uso este porque el metodo que necesitamos del padre es uno solo y sera el mismo para todos
             this.atajadas = atajadas; //Ademas uso el this. para asignar los valores a los atributos propios
             this.golesRecibidos = golesRecibidos;
         }
