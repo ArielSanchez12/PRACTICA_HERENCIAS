@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class Jugador { //Clase padre
-    String equipo;
-    int edad;
-    String nombre;
+    protected String equipo; //protected para la segurdad de los atributos padre
+    protected int edad;
+    protected String nombre;
 
     public Jugador(String equipo, String nombre, int edad) { //Constructor padre
         this.equipo = equipo;
