@@ -27,7 +27,7 @@ public class Jugador { //Clase padre
             super(equipo, nombrePortero, edadPortero); //Estos son los heredados
             //Cuando queramos heredar metodos especificos(NO TODOS) podemos usar la siguiente linea
             //super.NombreMetodoEspecifico();
-            //En este caso no uso este porque el metodo que necesitamos del padre es uno solo y sera el mismo para todos
+            //En este caso no usé esa linea porque el metodo que necesitamos del padre es uno solo y sera el mismo para todos
             this.atajadas = atajadas; //Ademas uso el this. para asignar los valores a los atributos propios
             this.golesRecibidos = golesRecibidos;
         }
